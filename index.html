@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="jquery-3.6.0.js"></script>
+    <script src="books.js"></script>
+    <title>GradeBook</title>
+</head>
+<body>
+
+<div id="container">
+    <h1>Enter Student Stuff</h1>
+    <br>
+
+    <label for="fName">Enter the First Name</label>
+    <input type="text" id="fName" required autofocus>
+    <br>
+
+    <label for="lName">Enter the Last Time</label>
+    <input type="text" id="lName" required>
+    <br>
+
+    <label for="pEarned">Enter Points Earned</label>
+    <input type="number" id="pEarned" required>
+    <br>
+
+    <label for="pPossible">Enter Points Possible</label>
+    <input type="number" id="pPossible" min="0" required>
+    <br>
+
+    <button id="submit">Submit</button>
+    <button id="sortName">Sort by Name</button>
+    <button id="sortPercent">Sort by Percent</button>
+    <br>
+
+    <p id="gradeBook"></p>
+</div>
+
+</body>
+</html>
